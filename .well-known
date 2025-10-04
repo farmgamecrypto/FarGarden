@@ -1,0 +1,12 @@
+{
+  "name": "FarGarden",
+  "description": "Mini farming game integrated with Farcaster",
+  "domain": "https://fargarden.vercel.app",
+  "developer": {
+    "name": "Fargarden",
+    "website": "https://fargarden.vercel.app"
+  },
+  "logo": "https://fargarden.vercel.app/logo.png",
+  "scopes": ["post", "read"],
+  "callback_url": "https://fargarden.vercel.app/api/farcaster-callback"
+}
