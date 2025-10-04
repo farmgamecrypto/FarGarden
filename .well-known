@@ -1,1 +1,29 @@
-{  "accountAssociation": {    "header": "eyJmaWQiOjEzMzMxNzEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgzMDMyNTlDMzg4OGY2Mjk1OTcwZUJhNGFhY2MwMWRFMWExNTg2QzU5In0",    "payload": "eyJkb21haW4iOiJmYXJnYXJkZW4udmVyY2VsLmFwcCJ9",    "signature": "MHgyZmVkY2YzMDMyY2IwNGM1MWI4MTIwYWVjZGNiNTkwNTg5ZjM3MWJlMmE0MWQ1OGFlZGYxYThkYzg5N2QwNjNiNjBjNjYzM2Q5Y2FmNmZjYjUzOWQ4NmUzNDI5MjVmMDYyYjIxMTU2MzcwMWExMzlmYTExNzc5ZDI4Mjg0MzFmNDFi"  },  "frame": {    "version": "1",    "name": "Example Frame",    "iconUrl": "https://fargarden.vercel.app/icon.png",    "homeUrl": "https://fargarden.vercel.app",    "imageUrl": "https://fargarden.vercel.app/image.png",    "buttonTitle": "Check this out",    "splashImageUrl": "https://fargarden.vercel.app/splash.png",    "splashBackgroundColor": "#eeccff",    "webhookUrl": "https://fargarden.vercel.app/api/webhook"  }}
+{
+  "name": "FarGarden",
+  "description": "Mini farming game integrated with Farcaster",
+  "domain": "https://fargarden.vercel.app",
+  "developer": {
+    "name": "Your Name",
+    "website": "https://fargarden.vercel.app"
+  },
+  "logo": "https://fargarden.vercel.app/logo.png",
+  "scopes": ["post", "read"],
+  "callback_url": "https://fargarden.vercel.app/api/farcaster-callback",
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEzMzMxNzEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgzMDMyNTlDMzg4OGY2Mjk1OTcwZUJhNGFhY2MwMWRFMWExNTg2QzU5In0",
+    "payload": "eyJkb21haW4iOiJmYXJnYXJkZW4udmVyY2VsLmFwcCJ9",
+    "signature": "MHgyZmVkY2YzMDMyY2IwNGM1MWI4MTIwYWVjZGNiNTkwNTg5ZjM3MWJlMmE0MWQ1OGFlZGYxYThkYzg5N2QwNjNiNjBjNjYzM2Q5Y2FmNmZjYjUzOWQ4NmUzNDI5MjVmMDYyYjIxMTU2MzcwMWExMzlmYTExNzc5ZDI4Mjg0MzFmNDFi"
+  },
+  "frame": {
+    "version": "1",
+    "name": "FarGarden Frame",
+    "iconUrl": "https://fargarden.vercel.app/icon.png",
+    "homeUrl": "https://fargarden.vercel.app",
+    "imageUrl": "https://fargarden.vercel.app/image.png",
+    "buttonTitle": "Play Now",
+    "splashImageUrl": "https://fargarden.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://fargarden.vercel.app/api/webhook"
+  }
+}
+
